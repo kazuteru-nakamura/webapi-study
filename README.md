@@ -19,3 +19,4 @@
       - Developer Toolsと拡張機能を利用
     - Internetに接続できる環境
       - NuGetパッケージを取得
+        - NSwag
