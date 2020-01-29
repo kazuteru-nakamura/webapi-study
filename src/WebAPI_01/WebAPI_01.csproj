@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>$(SolutionDir)WebAPI_01\WebAPI_01.comments.xml</DocumentationFile>
+    <DocumentationFile>.\WebAPI_01.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

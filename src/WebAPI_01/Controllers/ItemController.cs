@@ -69,5 +69,25 @@ namespace WebAPI_01.Controllers
             return Accepted();
         }
 
+        /// <summary>
+        /// アイテムを更新します
+        /// </summary>
+        /// <param name="item">アイテム</param>
+        /// <returns>実行結果</returns>
+        [HttpPut]
+        public IActionResult Put(Item item)
+        {
+            var target = ItemDB.Where(x => x.Id == item.Id).FirstOrDefault();
+
+            if (target == null)
+            {
+                return NotFound("データが存在しません");
+            }
+
+            target.Name = item.Name;
+
+            return Accepted(target);
+        }
+
     }
 }
