@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile></DocumentationFile>
+    <DocumentationFile>$(SolutionDir)WebAPI_01\WebAPI_01.comments.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="WebAPI_01.xml" />
+    <None Remove="WebAPI_01.comments.xml" />
   </ItemGroup>
 
   <ItemGroup>
