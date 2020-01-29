@@ -27,18 +27,23 @@
             アイテムAPI
             </summary>
         </member>
-        <member name="M:WebAPI_01.Controllers.ItemController.Post(WebAPI_01.Models.Item)">
+        <member name="F:WebAPI_01.Controllers.ItemController.ItemDB">
             <summary>
-            アイテムを新規登録します
+            仮想のデータベース
             </summary>
-            <param name="item">アイテム</param>
-            <returns>実行結果</returns>
         </member>
         <member name="M:WebAPI_01.Controllers.ItemController.Get">
             <summary>
             アイテムを全件取得します
             </summary>
             <returns>アイテム</returns>
+        </member>
+        <member name="M:WebAPI_01.Controllers.ItemController.Post(WebAPI_01.Models.Item)">
+            <summary>
+            アイテムを新規登録します
+            </summary>
+            <param name="item">アイテム</param>
+            <returns>実行結果</returns>
         </member>
         <member name="M:WebAPI_01.Controllers.ItemController.Delete(System.Int32)">
             <summary>
