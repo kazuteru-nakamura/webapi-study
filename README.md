@@ -1,3 +1,16 @@
 # Web API ハンズオン講習
-  - Visual Studio 2019
-  - ASP.NET Core 3.1
+  - 前提知識
+    - 座学
+      - 特になし
+    - ハンズオン
+      - Visual Studioの簡単な操作方法
+      - 少しだけC#の知識
+  - ハンズオンに必要な環境
+    - Visual Studio 2019
+      - 無償のCommunity Editionで可
+    - .NET Core 3.1 SDK
+      - Visual Studio 2019 v16.4からバンドル済み
+    - Google Chrome
+      - Developer Toolsと拡張機能を利用
+    - Internetに接続できる環境
+      - NuGetパッケージを取得
